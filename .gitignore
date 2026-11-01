@@ -1,0 +1,22 @@
+# Raw and prepared datasets
+data/raw/
+data/prepared/
+*.csv
+
+# Oracle Loader logs, bad files, discard files
+*.log
+*.bad
+*.dsc
+logs/
+
+# Python & Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# Environment and sensitive keys
+.env
+*.env
